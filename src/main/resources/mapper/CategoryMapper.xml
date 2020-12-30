@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.baizhi.dao.CategoryMapper">
+    <select id="queryAllOne" resultType="com.baizhi.entity.Category">
+  	select * from yx_category where levels=1
+  </select>
+    <select id="queryAllTwo" resultType="com.baizhi.entity.Category">
+  	select * from yx_category where levels=2
+  </select>
+</mapper>

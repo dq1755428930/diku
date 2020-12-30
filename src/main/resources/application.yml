@@ -1,0 +1,20 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /yingx
+    jsp:
+      init-parameters:
+        development: true
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dq
+    username: root
+    password: root
+mybatis:
+  type-aliases-package: com.baizhi.entity
+  mapper-locations: classpath:mapper/*Mapper.xml

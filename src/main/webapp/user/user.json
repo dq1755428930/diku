@@ -1,0 +1,35 @@
+{
+  "page": "1",
+  "total": "2",
+  "records": "10",
+  "rows": [
+    {
+      "id": "1",
+      "phone": "12345678901",
+      "username": "小黑",
+      "head_img": "pic2.jpg",
+      "breif": "lalalal",
+      "status": "1",
+      "create_date": "2012-12-12",
+      "score": "12"
+    },{
+      "id": "2",
+      "phone": "12345678901",
+      "username": "小黑s",
+      "head_img": "pic2.jpg",
+      "breif": "lalalal",
+      "status": "1",
+      "create_date": "2012-12-12",
+      "score": "12"
+    },{
+      "id": "3",
+      "phone": "12345678901",
+      "username": "小黑s",
+      "head_img": "pic2.jpg",
+      "breif": "lalalal",
+      "status": "1",
+      "create_date": "2012-12-12",
+      "score": "12"
+    }
+  ]
+}
